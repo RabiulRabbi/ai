@@ -1,0 +1,7 @@
+(format t "Enter the length: ")
+(setq	a (read)
+	b (read)
+	c (read))
+(setq s (/(+ a b c)2))
+(setq area (sqrt(* s (- s a)(- s b)(- s c))))
+(format t "Tringle area is: ~,2f~%" area)
